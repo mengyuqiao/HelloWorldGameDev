@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">MyTest</string>
-    <string name="btn_text">Wake up</string>
+    <string name="app_name">HelloGame</string>
+    <string name="btn_text">Yes!</string>
+    <string name="hello_str">Hello World!</string>
+    <string name="ask_str">Are you ready for adventure?</string>
+    <string name="back_str">Back</string>
+    <string name="name_string">What\'s your name?</string>
 </resources>
