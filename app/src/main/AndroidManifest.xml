@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyTest">
+
         <activity
             android:name=".MainMenuActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:launchMode="singleTask"> <!-- help exit the app -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +25,7 @@
             android:exported="true" />
         <activity
             android:name=".TestActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".HelloActivity"
             android:exported="true" />

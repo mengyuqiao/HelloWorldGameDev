@@ -11,6 +11,7 @@ import android.widget.EditText;
 public class TestActivity extends AppCompatActivity {
     Button submitUsernameBtn;
     Button backBtn;
+    Button homeBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,16 @@ public class TestActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
+            }
+        });
+
+        // get to main menu
+        this.homeBtn = (Button) findViewById(R.id.homeBtn4);
+        homeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TestActivity.this, MainMenuActivity.class);
+                startActivity(intent);
             }
         });
     }

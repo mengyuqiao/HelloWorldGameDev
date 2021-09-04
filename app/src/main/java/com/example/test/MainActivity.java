@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     String username;
     TextView usernameView;
     Button backBtn;
+    Button homeBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +64,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
+            }
+        });
+
+        // get to main menu
+        this.homeBtn = (Button) findViewById(R.id.homeBtn2);
+        homeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MainMenuActivity.class);
+                startActivity(intent);
             }
         });
     }
