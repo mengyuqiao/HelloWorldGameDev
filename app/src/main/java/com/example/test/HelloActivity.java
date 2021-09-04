@@ -15,10 +15,8 @@ public class HelloActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello);
 
+        // get back
         this.backBtn = (Button) findViewById(R.id.backBtn);
-    }
-
-    public void onClickButton(View view){
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

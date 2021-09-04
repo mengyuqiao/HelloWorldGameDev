@@ -7,6 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".TestActivity">
 
+    <Button
+        android:id="@+id/backBtn4"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@mipmap/back"
+        android:layout_margin="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/ask_name"
         android:layout_width="wrap_content"
@@ -34,12 +43,9 @@
 
     <Button
         android:id="@+id/ok_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ok_btn"
-        android:backgroundTint="@color/black"
-        android:textColor="@color/white"
-        android:fontFamily="@font/dancing_script"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@mipmap/next"
         app:layout_constraintTop_toBottomOf="@id/name_edit"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

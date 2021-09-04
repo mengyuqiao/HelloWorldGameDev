@@ -7,4 +7,6 @@
     <string name="name_string">What\'s your name?</string>
     <string name="your_name">Your name</string>
     <string name="ok_btn">Ok</string>
+    <string name="byebye_str">Hope to see you soon, bye</string>
+    <string name="game_name_str">HelloGame</string>
 </resources>

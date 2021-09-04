@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/Codes/GameDev/app/src/main/res/drawable/ic_launcher_background.xml" value="0.29010416666666666" />
         <entry key="..\:/Codes/GameDev/app/src/main/res/layout/activity_hello.xml" value="0.264" />
-        <entry key="..\:/Codes/GameDev/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Codes/GameDev/app/src/main/res/layout/activity_test.xml" value="0.14322916666666666" />
+        <entry key="..\:/Codes/GameDev/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Codes/GameDev/app/src/main/res/layout/activity_main_menu.xml" value="0.4148550724637681" />
+        <entry key="..\:/Codes/GameDev/app/src/main/res/layout/activity_not_ready.xml" value="0.4148550724637681" />
+        <entry key="..\:/Codes/GameDev/app/src/main/res/layout/activity_test.xml" value="0.2" />
         <entry key="..\:/Codes/GameDev/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.29010416666666666" />
       </map>
     </option>
